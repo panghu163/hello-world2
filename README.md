@@ -27,18 +27,18 @@ DCDBDump是DCDB的一款命令行工具，DCDBDump属于单线程，导出兼容
 
 #### DCDBDump的命令参数分为必填参数和可选参数：
 ##### 必填参数：
-> **`-u -p --databases`**
+ **`-u -p --databases`**
 
 ##### 可选参数及默认值
-> `-h`：默认情况下使用本地IP
+`-h`：默认情况下使用本地IP
 
-> `-P`：默认情况下使用28282
+`-P`：默认情况下使用28282
 
-> `--path`：默认情况下，在本地以”database.sql”格式导出文件
+`--path`：默认情况下，在本地以”database.sql”格式导出文件
 
-> `--tales`：默认情况下，导出database下所有的表
+`--tales`：默认情况下，导出database下所有的表
 
-> `--dumpsize`：默认值为100000
+`--dumpsize`：默认值为100000
 
 
 ## 注意
