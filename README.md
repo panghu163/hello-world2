@@ -2,14 +2,14 @@
 DCDBDump是DCDB的一款命令行工具，DCDBDump属于单线程，导出兼容mysql格式的sql文件，可以用于执行导出任务。
 ## DCDBDump的使用
 ### 参数
->`-h`:指定DCDB的db所在节点的IP
->`-P`:指定DCDB中db运行的端口号
->`-u`:DCDB的用户名
->`-p`:DCDB的用户密码
->`--databases`:导出的数据库
->`--path`:导出数据的路径及文件名（必须指定文件名）
->`--tables`：导出对应表格的数据
->`--dumpsize`：操作io的数量
+`-h`:指定DCDB的db所在节点的IP
+`-P`:指定DCDB中db运行的端口号
+`-u`:DCDB的用户名
+`-p`:DCDB的用户密码
+`--databases`:导出的数据库
+`--path`:导出数据的路径及文件名（必须指定文件名）
+`--tables`：导出对应表格的数据
+`--dumpsize`：操作io的数量
 
 **完整的命令：**
 ``` sql
